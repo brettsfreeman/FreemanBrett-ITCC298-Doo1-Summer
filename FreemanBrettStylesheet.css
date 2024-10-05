@@ -1,0 +1,147 @@
+body {
+    background-color: #f5f5dc; /* Light beige background */
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    color: #556b2f; /* Dark Gray */
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #2c3e50;
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+span.boldtext {
+    font-weight: bold;
+}
+
+span.italictext {
+    font-style: italic;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.column {
+    flex: 1;
+    max-width: 33%;
+    padding: 15px;
+    transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.column:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.menu {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li.menu:last-child {
+    border-right: none;
+}
+
+li.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+li.menu a:hover {
+    background-color: darkgray;
+}
+
+.active {
+    background-color: #556b2f; /* DarkGoldenRod */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #d3d3d3; /* Light Gray */
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+b {
+    color: #556b2f; /* DarkGoldenRod */
+}
+
